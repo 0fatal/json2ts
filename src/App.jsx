@@ -13,7 +13,6 @@ function App() {
             return
         }
         const res = j2t.convert(jsonStr)
-        alert(res)
         setTsStr(res)
     }
 
